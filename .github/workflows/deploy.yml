@@ -23,4 +23,4 @@ jobs:
         with:
           context: ./flask-app
           push: true
-          tags: ${{ secrets.DOCKER_USER }}/mini-projet-cloud:latest
+          tags: ${{ secrets.DOCKER_USERNAME }}/mini-projet-cloud:latest
